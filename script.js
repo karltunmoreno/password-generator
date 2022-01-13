@@ -47,7 +47,7 @@ function generatePassword(){
     
     
     
-    // I want you to add it to the password var
+    // I want to add it to the password var
  } 
  return password
 }
