@@ -17,39 +17,39 @@ function generatePassword(){
   var specialArr = ['!','@','#','%','$','&','*']
   var userArr = [];
 
-  var userLength = prompt('Choose 3 uppercase letters in the albabet A-Z');
-  var hasUpper = confirm("move to question two!");
+  
+  var hasUpper = confirm("Do you want capital letters in your password?");
   if(hasUpper === true){
     userArr = userArr.concat(upperArray)
-  
-  var userLength = prompt('Choose 3 symblos from the top key pad');
-  var hasUpper = confirm("Your answer is being processed");
-  if(hasUpper === true)
+  }
+  var hasSpecial = confirm("Do you want special characters in your password?('!','@','#','%','$','&','*')");
+  if(hasSpecial === true) {
   userArr = userArr.concat(specialArr)
-
-  var userLength = prompt('Choose 6 numbers between 0 and 9 numbers');
-  var hasUpper = confirm("Calcutating numbers?");
-  if(hasUpper === true)
+  }
+  var hasNum = confirm("Do you want numbers in your password?"); 
+  if(hasNum === true) {
   userArr = userArr.concat(numArray) 
-
-  var userLength = prompt('Choose 3 lower case letters in the albabet a-z');
-  var hasUpper = confirm("populating lower case letters");
-  if(hasUpper === true)
+  }
+  
+  var hasLow = confirm("Do you want lower case letter in your password?");
+  if (hasLow === true) {
   userArr = userArr.concat(lowerArray)
 }
-  // do this for the other 3 array
+  // do this for the other 4 array
   
+  var userLength = prompt("how long do you want your password to be?");
+  console.log("userLength ", userLength)
+  var randomPassword = [];
+ for (var i = 0; i < userLength; i++){
   
-  var password = '[2AbHtf@#]';
- for(var i = 0; i < userLength; i++){
-    var randomNumber = Math.floor(Math.random() * userArr.length)
-    // grab the random characters from userArr using the randomNumber
-    
-    
-    
+  var randomNumber = Math.floor(Math.random() * userArr.length);
+  randomPassword.push(userArr[randomNumber]);
+    // grab the random characters from userArr using the randomNumber in another array
+  console.log('randomPassword', randomPassword.join(""));
     // I want to add it to the password var
- } 
- return password
+ }
+ console.log('randomPassword', randomPassword.join(""));
+ return randomPassword.join("");
 }
 
 // Add event listener to generate button
