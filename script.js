@@ -37,7 +37,7 @@ function generatePassword(){
 }
   // do this for the other 4 array
   
-  var userLength = prompt("how long do you want your password to be?");
+  var userLength = prompt("Choose a length of at least 8 characters and no more than 128 characters");
   console.log("userLength ", userLength)
   var randomPassword = [];
  for (var i = 0; i < userLength; i++){
