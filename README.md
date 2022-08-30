@@ -36,6 +36,13 @@ ________________________________________________________________________________
 
 Password generator was crated with a quick pop up messages to ask for a password from 8 to 128 characters. once user selectes this options are displayed for leter caps, numbers and special charaters. 
 password will be displayed in the password text bos and also automatically copied in the user clipboard. 
+___________________________________________________________________________________________________________________________________________________________________
+
+### Tech Used:
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?logo=html5&logoColor=white&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?logo=css3&logoColor=white&style=for-the-badge)
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=flat-square&logo=javascript&logoColor=000000&color=d1b01f)
 
 
 
