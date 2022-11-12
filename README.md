@@ -1,7 +1,7 @@
 
 ## Password Generator
 
-![Ss](https://karltunmoreno.github.io/My-Portfolio/assets/images/passwordpic.jpg)
+![Ss](https://karltunmoreno.github.io/My-Portfolio/assets/images/passwordgen.jpg)
 
 
 ___________________________________________________________________________________________________________________________________________________________________
